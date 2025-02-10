@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to clean up after apt-get update and install. This can lead to unnecessarily large image sizes and potential build issues due to inconsistent caching. The solution shows the proper way to clean up using apt-get clean to improve build efficiency and maintain image size.
